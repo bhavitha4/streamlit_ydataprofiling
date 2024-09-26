@@ -2,8 +2,8 @@ pandas
 numpy
 scipy
 streamlit
-ydata-profiling
-streamlit-pandas-profiling
+ydata-profiling==4.7.0  # Keep this as it is
+visions>=0.7.5,<0.7.7  # Ensure it meets the requirements of ydata-profiling
 matplotlib
 openpyxl
 xlrd
